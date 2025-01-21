@@ -1,471 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo - Import Montero S2</title>
-  <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <div class="background">
-        <header class="catalog-header">
-      <h1>Descubre Las Mejores Motos Eléctricas</h1>
-      <p>Elige la moto perfecta para ti.</p>
+    <header>
+        <h1>Descubre Las Mejores Motocicletas Eléctricas</h1>
+        <p>Elige la moto perfecta para ti.</p>
     </header>
 
-    <h4>BICIMOTOS:</h4>
-    <div id="catalog" class="catalog-container">
-      <!-- Galería de imágenes -->
-      <div class="gallery">
-        <!-- Item de ejemplo -->
-        <!-- Duplicar con distintas imágenes y descripciones -->
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Potente motor: 500W
-            , Tipo de batería lithium
-            , Voltaje: 48V / 28 AH
-            , Tiempo de carga: 4 a 6 horas
-            , Recorrido por carga de 40km
-            , 3 velocidades
-            , Amortiguadores traseros de gas con adhesivo
-            , Velocímetro digital
-            , Canasta
-            , Sistema de frenos delantero de disco y trasero de disco
-            , Medida de Llanta: 90 / 90-14 para delantero y trasero
-            , Accesorios: Alarma, Uso, Full Luces
-             Led, Bluetooth, Mp3, Radio"
-             data-model="BICIMOTO GRILLO ">
-          <img src="./img/biciMotos/photo1.jpg" alt="Moto A1">
-          <p>BICIMOTO  -  Precio:  820 USD </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Potente motor: 500W
-            , Tipo de batería lithium
-            , Voltaje: 48V / 28 AH
-            , Tiempo de carga: 4 a 6 horas
-            , Recorrido por carga de 40km
-            , 3 velocidades
-            , Amortiguadores traseros de gas con adhesivo
-            , Velocímetro digital
-            , Canasta
-            , Sistema de frenos delantero de disco y trasero de disco
-            , Medida de Llanta: 90 / 90-14 para delantero y trasero
-            , Accesorios: Alarma, Uso, Full Luces
-             Led, Bluetooth, Mp3, Radio"
-             data-model="BICIMOTO GRILLO ">
-          <img src="./img/biciMotos/photo2.jpg" alt="Moto A1">
-          <p>BICIMOTO  -  Precio:  820 USD </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Potente motor: 500W
-            , Tipo de batería lithium
-            , Voltaje: 48V / 28 AH
-            , Tiempo de carga: 4 a 6 horas
-            , Recorrido por carga de 40km
-            , 3 velocidades
-            , Amortiguadores traseros de gas con adhesivo
-            , Velocímetro digital
-            , Canasta
-            , Sistema de frenos delantero de disco y trasero de disco
-            , Medida de Llanta: 90 / 90-14 para delantero y trasero
-            , Accesorios: Alarma, Uso, Full Luces
-             Led, Bluetooth, Mp3, Radio"
-             data-model="BICIMOTO GRILLO ">
-          <img src="./img/biciMotos/photo3.jpg" alt="Moto A1">
-          <p>BICIMOTO  -  Precio:  820 USD </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Potente motor: 500W
-            , Tipo de batería lithium
-            , Voltaje: 48V / 28 AH
-            , Tiempo de carga: 4 a 6 horas
-            , Recorrido por carga de 40km
-            , 3 velocidades
-            , Amortiguadores traseros de gas con adhesivo
-            , Velocímetro digital
-            , Canasta
-            , Sistema de frenos delantero de disco y trasero de disco
-            , Medida de Llanta: 90 / 90-14 para delantero y trasero
-            , Accesorios: Alarma, Uso, Full Luces
-             Led, Bluetooth, Mp3, Radio"
-             data-model="BICIMOTO GRILLO">
-          <img src="./img/biciMotos/photo4.jpg" alt="Moto A1">
-          <p>BICIMOTO  -  Precio:  820 USD </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Potente motor: 500W
-            , Tipo de batería lithium
-            , Voltaje: 48V / 28 AH
-            , Tiempo de carga: 4 a 6 horas
-            , Recorrido por carga de 40km
-            , 3 velocidades
-            , Amortiguadores traseros de gas con adhesivo
-            , Velocímetro digital
-            , Canasta
-            , Sistema de frenos delantero de disco y trasero de disco
-            , Medida de Llanta: 90 / 90-14 para delantero y trasero
-            , Accesorios: Alarma, Uso, Full Luces
-             Led, Bluetooth, Mp3, Radio"
-             data-model="BICIMOTO GRILLO">
-          <img src="./img/biciMotos/photo5.jpg" alt="Moto A1">
-          <p>BICIMOTO  -  Precio:  820 USD </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Potente motor: 500W
-            , Tipo de batería lithium
-            , Voltaje: 48V / 28 AH
-            , Tiempo de carga: 4 a 6 horas
-            , Recorrido por carga de 40km
-            , 3 velocidades
-            , Amortiguadores traseros de gas con adhesivo
-            , Velocímetro digital
-            , Canasta
-            , Sistema de frenos delantero de disco y trasero de disco
-            , Medida de Llanta: 90 / 90-14 para delantero y trasero
-            , Accesorios: Alarma, Uso, Full Luces
-             Led, Bluetooth, Mp3, Radio"
-             data-model="BICIMOTO GRILLO">
-          <img src="./img/biciMotos/photo6.jpg" alt="Moto A1">
-          <p>BICIMOTO  -  Precio:  820 USD </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Potente motor: 500W
-            , Tipo de batería lithium
-            , Voltaje: 48V / 28 AH
-            , Tiempo de carga: 4 a 6 horas
-            , Recorrido por carga de 40km
-            , 3 velocidades
-            , Amortiguadores traseros de gas con adhesivo
-            , Velocímetro digital
-            , Canasta
-            , Sistema de frenos delantero de disco y trasero de disco
-            , Medida de Llanta: 90 / 90-14 para delantero y trasero
-            , Accesorios: Alarma, Uso, Full Luces
-             Led, Bluetooth, Mp3, Radio"
-             data-model="BICIMOTO GRILLO">
-          <img src="./img/biciMotos/photo7.jpg" alt="Moto A1">
-          <p>BICIMOTO  -  Precio:  820 USD </p>
-        </div>
-        <!-- Agregar más motos de la misma forma -->
-      </div>
+    <div id="product-gallery">
+        <!-- Las imágenes de los productos se cargarán aquí dinámicamente -->
     </div>
 
-    <h4>MOTORINAS:</h4>
-    <div id="catalog" class="catalog-container">
-      <!-- Galería de imágenes -->
-      <div class="gallery">
-        <!-- Item de ejemplo -->
-        <!-- Duplicar con distintas imágenes y descripciones -->
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor power 1000W
-            , Motor voltaje 72V
-            , Controlador 35A
-            , Tipo de batería lithium PO4
-            , Capacidad de batería: 72V 40A PO4
-            , 4 Velocidades / Reversa
-            , Recorrido por carga de 100km
-            , Tiempo de carga de batería 4 hrs
-            , Velocímetro digital
-            , Sistema de frenos delantero de disco
-             y trasero de disco
-            , Medida de llanta 120/80R12
-            , Accesorios alarma, uso, full luces Led, mp3, bluetooth, radio"
-             data-model="MISHOZUKI NEW BUHO-2 LT PO4 40AH">
-          <img src="./img/motorinas/photo1.jpg" alt="Moto A1">
-          <p>MOTORINA  -  Precio:  1700 USD  </p>
+    <div id="product-modal" class="modal hidden">
+        <div class="modal-content">
+            <img id="product-image" src="" alt="Imagen del Producto">
+            <p id="product-description"></p>
+            <button onclick="addToCart()">Comprar</button>
+            <button onclick="closeModal()">Atrás</button>
         </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor power 1000W
-            , Motor voltaje 72V
-            , Controlador 35A
-            , Tipo de batería lithium PO4
-            , Capacidad de batería: 72V 40A PO4
-            , 4 Velocidades / Reversa
-            , Recorrido por carga de 100km
-            , Tiempo de carga de batería 4 hrs
-            , Velocímetro digital
-            , Sistema de frenos delantero de disco
-             y trasero de disco
-            , Medida de llanta 120/80R12
-            , Accesorios alarma, uso, full luces Led, mp3, bluetooth, radio"
-             data-model="MISHOZUKI NEW BUHO-2 LT PO4 40AH">
-          <img src="./img/motorinas/photo2.jpg" alt="Moto A1">
-          <p>MOTORINA  -  Precio:  1700 USD </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor power 1000W
-            , Motor voltaje 72V
-            , Controlador 35A
-            , Tipo de batería lithium PO4
-            , Capacidad de batería: 72V 40A PO4
-            , 4 Velocidades / Reversa
-            , Recorrido por carga de 100km
-            , Tiempo de carga de batería 4 hrs
-            , Velocímetro digital
-            , Sistema de frenos delantero de disco
-             y trasero de disco
-            , Medida de llanta 120/80R12
-            , Accesorios alarma, uso, full luces Led, mp3, bluetooth, radio"
-             data-model="MISHOZUKI NEW BUHO-2 LT PO4 40AH">
-          <img src="./img/motorinas/photo3.jpg" alt="Moto A1">
-          <p>MOTORINA  -  Precio:  1700 USD  </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor power 1000W
-            , Motor voltaje 72V
-            , Controlador 35A
-            , Tipo de batería lithium PO4
-            , Capacidad de batería: 72V 40A PO4
-            , 4 Velocidades / Reversa
-            , Recorrido por carga de 100km
-            , Tiempo de carga de batería 4 hrs
-            , Velocímetro digital
-            , Sistema de frenos delantero de disco
-             y trasero de disco
-            , Medida de llanta 120/80R12
-            , Accesorios alarma, uso, full luces Led, mp3, bluetooth, radio"
-             data-model="MISHOZUKI NEW BUHO-2 LT PO4 40AH">
-          <img src="./img/motorinas/photo4.jpg" alt="Moto A1">
-          <p>MOTORINA  -  Precio:  1700 USD  </p>
-        </div>
-
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor power 1000W
-             , Motor voltaje 72V
-             , Controlador 50A
-             , Tipo de batería lithium ION
-             , Capacidad de batería - 1 batería /
-              72V 45AH
-             , 5 velocidades
-             , Amortiguadores de gas
-             , Recorrido por carga de 150km
-             , Tiempo de carga de batería 4 horas
-             , Velocímetro digital
-             , Sistema de frenos delantero de disco y trasero de disco
-             , Medida de Llanta: 140/60/13-130/60/13
-             , Accesorios: Alarma, Uso, Full Luces""
-             data-model="MURASAKI">
-          <img src="./img/motorinas/photo5.jpg" alt="Moto A1">
-          <p>MOTORINA  -  Precio:  2125 USD </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor power 1000W
-             , Motor voltaje 72V
-             , Controlador 50A
-             , Tipo de batería lithium ION
-             , Capacidad de batería - 1 batería /
-              72V 45AH
-             , 5 velocidades
-             , Amortiguadores de gas
-             , Recorrido por carga de 150km
-             , Tiempo de carga de batería 4 horas
-             , Velocímetro digital
-             , Sistema de frenos delantero de disco y trasero de disco
-             , Medida de Llanta: 140/60/13-130/60/13
-             , Accesorios: Alarma, Uso, Full Luces""
-             data-model="MURASAKI">
-          <img src="./img/motorinas/photo6.jpg" alt="Moto A1">
-          <p>MOTORINA  -  Precio:  2125 USD  </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor power 1000W
-             , Motor voltaje 72V
-             , Controlador 50A
-             , Tipo de batería lithium ION
-             , Capacidad de batería - 1 batería /
-              72V 45AH
-             , 5 velocidades
-             , Amortiguadores de gas
-             , Recorrido por carga de 150km
-             , Tiempo de carga de batería 4 horas
-             , Velocímetro digital
-             , Sistema de frenos delantero de disco y trasero de disco
-             , Medida de Llanta: 140/60/13-130/60/13
-             , Accesorios: Alarma, Uso, Full Luces""
-             data-model="MURASAKI">
-          <img src="./img/motorinas/photo7.jpg" alt="Moto A1">
-          <p>MOTORINA  -  Precio:  2125 USD  </p>
-        </div>
-
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor power 1000W
-            , Motor voltaje 72V
-            , Controlador 45A
-            , Tipo de batería lithium ION
-            , Capacidad de batería - 1 batería /
-             72V 45AH
-            , 5 velocidades
-            , Muffler
-            , Amortiguadores de gas
-            , Recorrido por carga de 120km-150km
-            , Tiempo de carga de batería 4 horas
-            , Velocímetro digital
-            , Sistema de frenos delantero de disco
-             y trasero de disco
-            , Medida de Llanta: 130/60/13
-            , Accesorios: Alarma, Usb, Full Luces"
-             data-model="MISHOZUKI NEW BIG SHARK-2 PRO ION 45AH">
-          <img src="./img/motorinas/photo8.jpg" alt="Moto A1">
-          <p>MOTORINA  -  Precio:  1900 USD </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor power 1000W
-            , Motor voltaje 72V
-            , Controlador 45A
-            , Tipo de batería lithium ION
-            , Capacidad de batería - 1 batería /
-             72V 45AH
-            , 5 velocidades
-            , Muffler
-            , Amortiguadores de gas
-            , Recorrido por carga de 120km-150km
-            , Tiempo de carga de batería 4 horas
-            , Velocímetro digital
-            , Sistema de frenos delantero de disco
-             y trasero de disco
-            , Medida de Llanta: 130/60/13
-            , Accesorios: Alarma, Usb, Full Luces"
-             data-model="MISHOZUKI NEW BIG SHARK-2 PRO ION 45AH">
-          <img src="./img/motorinas/photo9.jpg" alt="Moto A1">
-          <p>MOTORINA  -  Precio:  1900 USD </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor power 1000W
-            , Motor voltaje 72V
-            , Controlador 45A
-            , Tipo de batería lithium ION
-            , Capacidad de batería - 1 batería /
-             72V 45AH
-            , 5 velocidades
-            , Muffler
-            , Amortiguadores de gas
-            , Recorrido por carga de 120km-150km
-            , Tiempo de carga de batería 4 horas
-            , Velocímetro digital
-            , Sistema de frenos delantero de disco
-             y trasero de disco
-            , Medida de Llanta: 130/60/13
-            , Accesorios: Alarma, Usb, Full Luces"
-             data-model="MISHOZUKI NEW BIG SHARK-2 PRO ION 45AH">
-          <img src="./img/motorinas/photo10.jpg" alt="Moto A1">
-          <p>MOTORINA  -  Precio:  1900 USD  </p>
-        </div>
-        <!-- Agregar más motos de la misma forma -->
-      </div>
     </div>
 
-    <h4>TRICICLOS:</h4>
-    <div id="catalog" class="catalog-container">
-      <!-- Galería de imágenes -->
-      <div class="gallery">
-        <!-- Item de ejemplo -->
-        <!-- Duplicar con distintas imágenes y descripciones -->
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor:
-             60V 1500W con amplificador,
-             Controlador:
-             60V/72V/ 1.5-2Kw, 36,
-             Tubos:
-             Rueda (delantero/trasero)4.50-12,
-             Dimensión global:
-             L3470*W1280*H1470mm,
-             Caja de carga:
-             L2000xW1200×H330mm,
-             distancia entre ejes:
-             2245mm,
-             Marca hecha por las ruedas:
-             1050 mm,
-             Suspensión trasera:
-             5 uds, 13,4 kg,
-             Cantidad de carga/40'HC, MOQ:
-             35 juegos"
-             data-model="TRICICLO ELECTRICO">
-          <img src="./img/triciculos/photo1.jpg" alt="Moto A1">
-          <p>TRICICLO ELECTRICO  -  Precio:  2900 USD  </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor:
-             60V 1500W con amplificador,
-             Controlador:
-             60V/72V/ 1.5-2Kw, 36,
-             Tubos:
-             Rueda (delantero/trasero)4.50-12,
-             Dimensión global:
-             L3470*W1280*H1470mm,
-             Caja de carga:
-             L2000xW1200×H330mm,
-             distancia entre ejes:
-             2245mm,
-             Marca hecha por las ruedas:
-             1050 mm,
-             Suspensión trasera:
-             5 uds, 13,4 kg,
-             Cantidad de carga/40'HC, MOQ:
-             35 juegos"
-             data-model="TRICICLO ELECTRICO">
-          <img src="./img/triciculos/photo2.jpg" alt="Moto A1">
-          <p>TRICICLO ELECTRICO  -  Precio:  2900 USD  </p>
-        </div>
-        <div class="item" onclick="showDetails(this)" 
-             data-description="Motor:
-             60V 1500W con amplificador,
-             Controlador:
-             60V/72V/ 1.5-2Kw, 36,
-             Tubos:
-             Rueda (delantero/trasero)4.50-12,
-             Dimensión global:
-             L3470*W1280*H1470mm,
-             Caja de carga:
-             L2000xW1200×H330mm,
-             distancia entre ejes:
-             2245mm,
-             Marca hecha por las ruedas:
-             1050 mm,
-             Suspensión trasera:
-             5 uds, 13,4 kg,
-             Cantidad de carga/40'HC, MOQ:
-             35 juegos"
-             data-model="TRICICLO ELECTRICO">
-          <img src="./img/triciculos/photo3.jpg" alt="Moto A1">
-          <p>TRICICLO ELECTRICO  -  Precio:  2900 USD </p>
-        </div>
-        <!-- Agregar más motos de la misma forma -->
+    <div id="order-form" class="hidden">
+      <div class="form-container">
+          <h2>Formulario de Compra</h2>
+          <form id="buy-form">
+              <input type="text" id="name" placeholder="Nombre" required>
+              <input type="text" id="surname" placeholder="Apellido" required>
+              <input type="text" id="dni" placeholder="DNI" required>
+              <input type="text" id="address" placeholder="Dirección" required>
+              <input type="email" id="email" placeholder="Correo Electrónico" required>
+              <button type="submit">Siguiente</button>
+              <button type="button" onclick="closeForm()">Cerrar</button>
+          </form>
       </div>
-    </div>
-
-
-    <!-- Ventana emergente para detalles -->
-    <div id="detailsModal" class="modal hidden">
-      <div class="modal-content">
-        <h2 id="modelTitle"></h2>
-        <p id="modelDescription"></p>
-        <button class="buy-button" onclick="buyProduct()">Comprar</button>
-        <button class="close-button" onclick="closeDetails()">Atrás</button>
-      </div>
-    </div>
   </div>
 
-  <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-about">
-        <h3>Import Montero S2</h3>
-        <p>Especialistas en movilidad eléctrica. Ofrecemos motos eléctricas modernas y eficientes para un futuro más sostenible.</p>
+  <div id="success-message" class="hidden">
+      <p>Nos pondremos en contacto con usted a través de nuestros gestores de ventas.</p>
+      <button onclick="redirectToWhatsApp()">Ir a WhatsApp</button>
+  </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <div id="particles-js"></div>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>Import Montero S2</h3>
+          <p>Especialistas en movilidad eléctrica. Ofrecemos motos eléctricas modernas y eficientes para un futuro más sostenible.</p>
+        </div>
+        <div class="footer-contact">
+          <h3>Contacto</h3>
+          <p>Email:<a href="importmonteros2@gmail.com"></a>importmonteros2@gmail.com</p>
+          <p>WhatsApp: <a href="https://wa.me/+15392517710" target="_blank">Escríbenos</a></p>
+        </div>
+        <div class="footer-social">
+          <h3>Síguenos</h3>
+          <a href="https://www.facebook.com/profile.php?id=61571848574046&mibextid=ZbWKwL" target="_blank">Facebook</a>
+          <p>Siguenos en nuestra pagina de Facebook y mantente actualizdo sobre en mundo de las moto electricas</p>
+        </div>
       </div>
-      <div class="footer-contact">
-        <h3>Contacto</h3>
-        <p>Email:<a href="importmonteros2@gmail.com"></a>importmonteros2@gmail.com</p>
-        <p>WhatsApp: <a href="https://wa.me/+15392517710" target="_blank">Escríbenos</a></p>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Import Montero S2. Todos los derechos reservados.</p>
       </div>
-      <div class="footer-social">
-        <h3>Síguenos</h3>
-        <a href="https://facebook.com" target="_blank">Facebook</a>
-        <p>Siguenos en nuestra pagina de Facebook y mantente actualizdo sobre en mundo de las moto electricas</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2025 Import Montero S2. Todos los derechos reservados.</p>
-    </div>
-  </footer>
-  
-  <script src="./js/script.js"></script>
+    </footer>
+
+<script>
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 80,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": true,
+                "anim": {
+                    "enable": true,
+                    "speed": 1,
+                    "opacity_min": 0.1
+                }
+            },
+            "size": {
+                "value": 3,
+                "random": true,
+                "anim": {
+                    "enable": true,
+                    "speed": 40,
+                    "size_min": 0.1
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            }
+        },
+        "interactivity": {
+            "detect_on": "window",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "grab"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                }
+            }
+        },
+        "retina_detect": true
+    });
+</script>
+
 </body>
 </html>
+
+

@@ -5,7 +5,6 @@
 /* Estilo para el fondo */
 /* Estilo para el fondo con transparencia */
 body {
-  background-image: url('../img/background.jpg'); /* Cambia 'images/fondo2.png' por la ruta de tu imagen */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

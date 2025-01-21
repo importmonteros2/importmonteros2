@@ -5,6 +5,7 @@
 /* Estilo para el fondo */
 /* Estilo para el fondo con transparencia */
 body {
+  background: #e6e6e6;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

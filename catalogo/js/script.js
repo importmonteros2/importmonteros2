@@ -113,7 +113,7 @@ document.getElementById("buy-form").onsubmit = function (e) {
     const message = `Hola, soy ${name} ${surname} y me interesa comprar una moto eléctrica. Moto ${productImage}`;
 
     // URL de WhatsApp con tu número (reemplaza <tu_numero> con tu número real)
-    const whatsappUrl = `https://wa.me/+15392517710?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+13525010484?text=${encodeURIComponent(message)}`;
 
     // Redirigir a WhatsApp
     window.location.href = whatsappUrl;
